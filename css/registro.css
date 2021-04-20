@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: cadetblue
+}
+#header{
+    width: 900px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+}
+#logo{
+    width: 900px;
+    height: 100px;
+    background-color: red;
+}
+#titulo{
+    width: 700px;
+    height: 100px;
+    background-image: url(/imagenes/unnamed\ \(1\).jpg);
+}
+#menu{
+    width: 900px;
+    height: 50px;
+    background-color: beige;
+}
+#cuerpo{
+    width: 900px;
+    height: 550px;
+    background-color: beige;
+    display: flex;
+}
+.lado1{
+    width: 350px;
+    height: 450px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+}
+.lado2{
+    width: 550px;
+    height: 450px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+}
+.caja1{
+    width: 350px;
+    height: 300px;
+    background-color:beige;
+}
+.caja2{
+    width: 550px;
+    height: 100px;
+    background-color: red;
+}
+.caja3{
+    width: 550px;
+    height: 180px;
+    background-color: white;
+}
+.caja4{
+    width: 550px;
+    height: 70px;
+    background-color: red;
+}
+#footer{
+    width: 900px;
+    height: 150px;
+    background-color: red;
+}
